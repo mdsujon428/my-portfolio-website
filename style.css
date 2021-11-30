@@ -1,0 +1,60 @@
+.header-section{
+    width: 100%;
+    height: auto;
+    margin: 0 25px;
+    background: #f8f8f8;
+}
+.section{
+    width: 80%;
+    height: auto;
+    margin: 30px 25px;
+    /* background: #f8f8f8; */
+    border-radius: 5px;
+}
+p{
+    font-size: 18px;
+}
+h1,p{
+    color: white;
+}
+.skills-card{
+    width: 70%;
+    margin: 0 30px;
+    font-size: 18px;
+}
+/* .skills-card{
+    text-align: center;
+} */
+
+.Other-card{
+    width: auto;
+    height: 243px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #d1d1d1;
+}
+
+.technology-header{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+}
+.technology{
+    width:auto;
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px;
+}
+/* @include media-breakpoint-up(sm) { 
+    .Other-card{
+        width: 350px;
+        height:auto;
+    }
+ } */
+
+ @media only screen and (max-width: 600px) {
+    .Other-card{
+        width: auto;
+        height:243px;
+    }
+ }
